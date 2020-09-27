@@ -1,23 +1,4 @@
-// function to determine license information
-function licenseInformation(licnese) {
-  //choices: ['Apache','MIT','GPL', 'none'] 
-  let badge, licenseInfo = "";
-
-  if (license === "Apache") {
-    badge = "badge";
-    licenseInfo = "An Apache license";
-  } else if (license === "MIT") {
-    badge = "badge";
-    licenseInfo = "An MIT license";
-  } else if (license === "GPL") {
-    badge = "badge";
-    licenseInfo = "An GPL license";
-  } else {
-    badge = "badge";
-    licenseInfo = "There is no license for this project.";
-  }
-  return { badge: badge, licenseInfo: licenseInfo}
-}
+const licenseInformation = require('./license.js');
 
 // function to generate markdown for README
 function generateMarkdown(data) {
@@ -25,6 +6,8 @@ function generateMarkdown(data) {
   const {badge, licenseInfo} = licenseInformation(data.license);
 
   return `# ${data.title}
+  
+  ${badge}
 
   ## Description
 
@@ -49,19 +32,23 @@ function generateMarkdown(data) {
 
   ## License
 
-  ${data.license}
+  License type: ${data.license}
 
-  ${licenseInfo}
-
+  License description: ${licenseInfo}
 
   ## Contributing
 
+  ${data.contribution}
 
   ## Tests
 
+  ${data.tests}
 
   ## Questions
 
+  GitHub profile [${data.user}](https://github.com/${data.user})
+
+  For additional questions, please contact me at ${data.email}.
 
 `;
 }
