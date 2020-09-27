@@ -25,9 +25,10 @@ const questions = [
         message: "Please add a description of your project."
     }, 
     {
-        type: "input",
+        type: "list",
         name: "license",
-        message: "What license do you want your porject to have?"
+        message: "What license do you want your porject to have?",
+        choices: ['Apache','MIT','GPL', 'none']
     },
     {
         type: "input",
@@ -53,7 +54,19 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    
+    return new Promise((resolve, reject) => {
+        fs.writeFile('./dist/' + fileName, data, err => {
+            if (err) {
+                reject(err);
+                return;
+            } 
+
+            resolve({
+                ok: true,
+                message: 'Your README.md file has been created!'
+            });
+        });
+    });
 }
 
 // function to initialize program
@@ -64,11 +77,13 @@ function init() {
 // function call to initialize program
 init()
 .then(questionAnswers => {
-    console.log(questionAnswers);
-    writeToFile("README.md", questionAnswers);
+    return generateMarkdown(questionAnswers);
+})
+.then(markup => {
+    return writeToFile("README.md", markup);
 })
 .then(message => {
-    console.log(message);
+    return console.log(message);
 })
 .catch(err => {
     console.log(err);
