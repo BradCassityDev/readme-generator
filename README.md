@@ -17,7 +17,7 @@
   ## Usage
 
   Users can utilize this program to quickly generate a professional README.md file within seconds.
-  [Application walktrhough demonstration](https://github.com/BradCassityDev)
+  [Application walkthrough demonstration](https://github.com/BradCassityDev)
 
   ## Questions
 
