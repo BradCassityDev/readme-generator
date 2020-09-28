@@ -3,7 +3,7 @@ const licenseInformation = require('./license.js');
 // function to generate markdown for README
 function generateMarkdown(data) {
   // Get license information based on selected license type
-  const {badge, licenseInfo} = licenseInformation(data.license);
+  const {badge} = licenseInformation(data.license);
 
   return `# ${data.title}
   
@@ -33,8 +33,6 @@ function generateMarkdown(data) {
   ## License
 
   License type: ${data.license}
-
-  License description: ${licenseInfo}
 
   ## Contributing
 

@@ -1,10 +1,10 @@
-# My project
+# d
   
-  badge
+  [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
   ## Description
 
-  This is the very long description of my project
+  d
 
   ## Table of Contents
 
@@ -17,29 +17,27 @@
 
   ## Installation
 
-  This is how you would install this project
+  ds
 
   ## Usage
 
-  Use this by doing this
+  sd
 
   ## License
 
-  License type: Apache License 2.0
-
-  License description: An Apache license
+  License type: Boost Software License 1.0
 
   ## Contributing
 
-  Figure it out
+  sd
 
   ## Tests
 
-  Test by doing this
+  sd
 
   ## Questions
 
-  GitHub profile [BradCassityDev](https://github.com/BradCassityDev)
+  GitHub profile [a](https://github.com/a)
 
-  For additional questions, please contact me at bradley.cassity@gmail.com.
+  For additional questions, please contact me at d.
 
