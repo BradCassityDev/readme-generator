@@ -17,10 +17,11 @@
   ## Usage
 
   Users can utilize this program to quickly generate a professional README.md file within seconds.
+  [Application walktrhough demonstration](https://github.com/BradCassityDev)
 
   ## Questions
 
-  GitHub profile [BradCassityDev](https://github.com/BradCassityDev)
+  GitHub profile [BradCassityDev](https://drive.google.com/file/d/1VSxL6S0sthLP1Z8G1hh2QocrmK5LPn0w/view)
 
 ## App example from command line
 ![Working Project Screenshot](/app.PNG)
