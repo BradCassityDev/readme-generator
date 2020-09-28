@@ -22,5 +22,5 @@
 
   GitHub profile [BradCassityDev](https://github.com/BradCassityDev)
 
-    ## App example from command line
-    ![Working Project Screenshot](/app.PNG)
+## App example from command line
+![Working Project Screenshot](/app.PNG)
