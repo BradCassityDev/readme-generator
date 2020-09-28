@@ -1,10 +1,10 @@
-# d
+# My Project 1
   
-  [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
   ## Description
 
-  d
+  This is the description to my project
 
   ## Table of Contents
 
@@ -17,27 +17,27 @@
 
   ## Installation
 
-  ds
+  This is how you install the program
 
   ## Usage
 
-  sd
+  This is how you use the program
 
   ## License
 
-  License type: Boost Software License 1.0
+  License type: BSD 3-Clause "New" or "Revised" License
 
   ## Contributing
 
-  sd
+  This is how you can contribute to this project
 
   ## Tests
 
-  sd
+  This is what you need to test
 
   ## Questions
 
-  GitHub profile [a](https://github.com/a)
+  GitHub profile [BradCassityDev](https://github.com/BradCassityDev)
 
-  For additional questions, please contact me at d.
+  For additional questions, please contact me at bradley.cassity@gmail.com.
 
